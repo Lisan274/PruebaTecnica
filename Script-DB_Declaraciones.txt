@@ -1,0 +1,110 @@
+CREATE DATABASE DeclaracionesDB;
+GO
+
+USE DeclaracionesDB;
+GO
+
+-- Tabla para DDT (Declaraciones)
+CREATE TABLE DDT (
+    Iddt VARCHAR(17) NOT NULL PRIMARY KEY,
+    Cddtver INT NOT NULL,
+    Iddtext VARCHAR(17) NOT NULL,
+    Iext VARCHAR(40),
+    Cddteta VARCHAR(4) NOT NULL,
+    Dddtoficia DATETIME NOT NULL,
+    Dddtrectifa DATETIME,
+    Cddtcirvis CHAR(1),
+    Qddttaxchg DECIMAL(12,6) NOT NULL,
+    Ista VARCHAR(4) NOT NULL,
+    Cddtbur VARCHAR(4) NOT NULL,
+    Cddtburdst VARCHAR(4),
+    Cddtdep VARCHAR(4),
+    Cddtentrep VARCHAR(4),
+    Cddtage VARCHAR(5) NOT NULL,
+    Cddtagr VARCHAR(14),
+    Lddtagr VARCHAR(100),
+    Nddtimmioe VARCHAR(14) NOT NULL,
+    Lddtnomioe VARCHAR(100) NOT NULL,
+    Cddtpayori CHAR(2),
+    Cddtpaidst CHAR(2),
+    Lddtnomfod VARCHAR(150),
+    Cddtincote CHAR(3),
+    Cddtdevfob CHAR(3) NOT NULL,
+    Cddtdevfle CHAR(3),
+    Cddtdevass CHAR(3),
+    Cddttransp VARCHAR(5),
+    Cddtmdetrn CHAR(1),
+    Cddtpaytrn CHAR(2),
+    Nddtart INT NOT NULL,
+    Nddtdelai INT,
+    Dddtbae DATETIME,
+    Dddtsalida DATETIME,
+    Dddtcancel DATETIME,
+    Dddtechean DATE,
+    Cddtobs VARCHAR(500)
+);
+GO
+
+-- Tabla para LIQ (Liquidación)
+CREATE TABLE LIQ (
+    Iliq VARCHAR(17) NOT NULL PRIMARY KEY,
+    Cliqdop VARCHAR(17) NOT NULL,
+    Cliqeta CHAR(3) NOT NULL,
+    Mliq DECIMAL(18,2) NOT NULL,
+    Mliqgar DECIMAL(18,2) NOT NULL,
+    dlippay DATETIME,
+    Clipnomope VARCHAR(20)
+);
+GO
+
+-- Tabla para ART (Artículos)
+CREATE TABLE ART (
+    Iddt VARCHAR(17) NOT NULL,
+    Nart INT NOT NULL,
+    Carttyp CHAR(1) NOT NULL,
+    Codbenef VARCHAR(15) NOT NULL,
+    Cartetamrc CHAR(2),
+    Iespnce VARCHAR(17) NOT NULL,
+    Cartdesc VARCHAR(500) NOT NULL,
+    Cartpayori CHAR(2),
+    Cartpayacq CHAR(2),
+    Cartpayprc CHAR(2),
+    Iddtapu VARCHAR(17),
+    Nartapu INT,
+    Qartbul DECIMAL(18,2),
+    Martunitar DECIMAL(18,4),
+    Cartuntdcl CHAR(2),
+    Qartuntdcl DECIMAL(18,2),
+    Cartuntest CHAR(2),
+    Qartuntest DECIMAL(18,2),
+    Qartkgrbrt DECIMAL(18,3),
+    Qartkgrnet DECIMAL(18,3),
+    Martfob DECIMAL(18,2) NOT NULL,
+    Martfobdol DECIMAL(18,2),
+    Martfle DECIMAL(18,2),
+    Martass DECIMAL(18,2),
+    Martemma DECIMAL(18,2),
+    Martfrai DECIMAL(18,2),
+    Martajuinc DECIMAL(18,2),
+    Martajuded DECIMAL(18,2),
+    Martbasimp DECIMAL(18,2) NOT NULL,
+    PRIMARY KEY (Iddt, Nart),
+    FOREIGN KEY (Iddt) REFERENCES DDT(Iddt)
+);
+GO
+
+-- Tabla para LQA (Liquidación de Artículos)
+CREATE TABLE LQA (
+    Iliq VARCHAR(17),
+    Iddt VARCHAR(17) NOT NULL,
+    Nart INT NOT NULL,
+    Clqatax CHAR(3),
+    Clqatyp CHAR(1),
+    Mlqabas DECIMAL(18,4),
+    Qlqacoefic DECIMAL(18,6),
+    Mlqa DECIMAL(18,4),
+    PRIMARY KEY (Iliq, Iddt, Nart),
+    FOREIGN KEY (Iliq) REFERENCES LIQ(Iliq),
+    FOREIGN KEY (Iddt, Nart) REFERENCES ART(Iddt, Nart)
+);
+GO
