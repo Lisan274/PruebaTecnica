@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9YyzD1QAXQI=",
+  "dgSpecHash": "kXtmPmQd17I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lisan\\OneDrive\\Escritorio\\PruebaTecnica\\Prueba_Tecnica\\Prueba_Tecnica-CNBS\\Prueba_Tecnica-CNBS\\Prueba_Tecnica-CNBS.csproj",
+  "projectFilePath": "C:\\Users\\lisan\\OneDrive\\Escritorio\\PruebaTecnica\\Prueba\\Prueba_Tecnica-CNBS\\Prueba_Tecnica-CNBS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lisan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\lisan\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

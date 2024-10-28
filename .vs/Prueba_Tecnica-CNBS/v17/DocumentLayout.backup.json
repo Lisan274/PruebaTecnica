@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lisan\\OneDrive\\Escritorio\\PruebaTecnica\\Prueba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1308E1-A11A-43F2-A8BC-964C7F2CD2A9}|Prueba_Tecnica-CNBS\\Prueba_Tecnica-CNBS.csproj|c:\\users\\lisan\\onedrive\\escritorio\\pruebatecnica\\prueba\\prueba_tecnica-cnbs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE1308E1-A11A-43F2-A8BC-964C7F2CD2A9}|Prueba_Tecnica-CNBS\\Prueba_Tecnica-CNBS.csproj|solutionrelative:prueba_tecnica-cnbs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1308E1-A11A-43F2-A8BC-964C7F2CD2A9}|Prueba_Tecnica-CNBS\\Prueba_Tecnica-CNBS.csproj|c:\\users\\lisan\\onedrive\\escritorio\\pruebatecnica\\prueba\\prueba_tecnica-cnbs\\views\\ddts\\loaddataview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE1308E1-A11A-43F2-A8BC-964C7F2CD2A9}|Prueba_Tecnica-CNBS\\Prueba_Tecnica-CNBS.csproj|solutionrelative:prueba_tecnica-cnbs\\views\\ddts\\loaddataview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1308E1-A11A-43F2-A8BC-964C7F2CD2A9}|Prueba_Tecnica-CNBS\\Prueba_Tecnica-CNBS.csproj|c:\\users\\lisan\\onedrive\\escritorio\\pruebatecnica\\prueba\\prueba_tecnica-cnbs\\controllers\\ddtscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1308E1-A11A-43F2-A8BC-964C7F2CD2A9}|Prueba_Tecnica-CNBS\\Prueba_Tecnica-CNBS.csproj|solutionrelative:prueba_tecnica-cnbs\\controllers\\ddtscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1308E1-A11A-43F2-A8BC-964C7F2CD2A9}|Prueba_Tecnica-CNBS\\Prueba_Tecnica-CNBS.csproj|c:\\users\\lisan\\onedrive\\escritorio\\pruebatecnica\\prueba\\prueba_tecnica-cnbs\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1308E1-A11A-43F2-A8BC-964C7F2CD2A9}|Prueba_Tecnica-CNBS\\Prueba_Tecnica-CNBS.csproj|solutionrelative:prueba_tecnica-cnbs\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lisan\\OneDrive\\Escritorio\\PruebaTecnica\\Prueba\\Prueba_Tecnica-CNBS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Prueba_Tecnica-CNBS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lisan\\OneDrive\\Escritorio\\PruebaTecnica\\Prueba\\Prueba_Tecnica-CNBS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Prueba_Tecnica-CNBS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowBwAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T14:52:51.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\lisan\\OneDrive\\Escritorio\\PruebaTecnica\\Prueba\\Prueba_Tecnica-CNBS\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "Prueba_Tecnica-CNBS\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\lisan\\OneDrive\\Escritorio\\PruebaTecnica\\Prueba\\Prueba_Tecnica-CNBS\\Services\\ApiService.cs",
+              "RelativeToolTip": "Prueba_Tecnica-CNBS\\Services\\ApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T14:44:21.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoadDataView.cshtml",
+              "DocumentMoniker": "C:\\Users\\lisan\\OneDrive\\Escritorio\\PruebaTecnica\\Prueba\\Prueba_Tecnica-CNBS\\Views\\Ddts\\LoadDataView.cshtml",
+              "RelativeDocumentMoniker": "Prueba_Tecnica-CNBS\\Views\\Ddts\\LoadDataView.cshtml",
+              "ToolTip": "C:\\Users\\lisan\\OneDrive\\Escritorio\\PruebaTecnica\\Prueba\\Prueba_Tecnica-CNBS\\Views\\Ddts\\LoadDataView.cshtml",
+              "RelativeToolTip": "Prueba_Tecnica-CNBS\\Views\\Ddts\\LoadDataView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T14:35:40.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DdtsController.cs",
+              "DocumentMoniker": "C:\\Users\\lisan\\OneDrive\\Escritorio\\PruebaTecnica\\Prueba\\Prueba_Tecnica-CNBS\\Controllers\\DdtsController.cs",
+              "RelativeDocumentMoniker": "Prueba_Tecnica-CNBS\\Controllers\\DdtsController.cs",
+              "ToolTip": "C:\\Users\\lisan\\OneDrive\\Escritorio\\PruebaTecnica\\Prueba\\Prueba_Tecnica-CNBS\\Controllers\\DdtsController.cs",
+              "RelativeToolTip": "Prueba_Tecnica-CNBS\\Controllers\\DdtsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T14:34:38.324Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

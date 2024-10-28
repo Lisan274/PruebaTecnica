@@ -1,0 +1,139 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Prueba_Tecnica_CNBS
+build_property.RootNamespace = Prueba_Tecnica_CNBS
+build_property.ProjectDir = C:\Users\lisan\OneDrive\Escritorio\PruebaTecnica\Prueba\Prueba_Tecnica-CNBS\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lisan\OneDrive\Escritorio\PruebaTecnica\Prueba\Prueba_Tecnica-CNBS
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Arts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Arts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Arts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Arts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Arts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Ddts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGR0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Ddts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGR0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Ddts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGR0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Ddts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGR0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Ddts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGR0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Ddts/LoadData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGR0c1xMb2FkRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Liqs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlxc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Liqs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlxc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Liqs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlxc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Liqs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlxc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Liqs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlxc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Lqas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHFhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Lqas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHFhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Lqas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHFhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Lqas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHFhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Lqas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHFhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisan/OneDrive/Escritorio/PruebaTecnica/Prueba/Prueba_Tecnica-CNBS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qx1q6codvy

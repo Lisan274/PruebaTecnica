@@ -20,43 +20,42 @@ namespace Prueba_Tecnica_CNBS.Controllers
             _context = context;
             _apiService = apiService;
         }
+        public IActionResult LoadDataView()
+        {
+            return View();
+        }
 
         public async Task<IActionResult> LoadData(string fecha)
         {
+            if (string.IsNullOrEmpty(fecha))
+            {
+                return BadRequest("La fecha es requerida.");
+            }
+
             try
             {
-                // Obtener datos desde el servicio
                 var xmlData = await _apiService.GetDeclarationsDataAsync(fecha);
 
-                // Extraer el valor de datosComprimidos
                 var datosComprimidos = xmlData.Root?.Element("datosComprimidos")?.Value;
                 if (string.IsNullOrEmpty(datosComprimidos))
                 {
                     return BadRequest("No se encontraron datos comprimidos.");
                 }
 
-                // Descomprimir datosComprimidos
                 var jsonData = await ApiService.DecompressAsync(datosComprimidos);
 
-                // Convertir JSON a objeto .NET (estructura de las declaraciones)
-                var declaraciones = JsonConvert.DeserializeObject<List<Ddt>>(jsonData) ?? new List<Ddt>();
+                var declaraciones = JsonConvert.DeserializeObject<List<Ddt>>(jsonData);
+                _context.Ddts.AddRange(declaraciones);
+                await _context.SaveChangesAsync();
 
-                if (declaraciones.Count > 0)
-                {
-                    _context.Ddts.AddRange(declaraciones);
-                    await _context.SaveChangesAsync();
-                    return Ok("Datos cargados y almacenados con éxito.");
-                }
-                else
-                {
-                    return BadRequest("No se encontraron declaraciones para guardar.");
-                }
+                return Ok("Datos cargados y almacenados con éxito.");
             }
             catch (Exception ex)
             {
                 return BadRequest($"Error al cargar datos: {ex.Message}");
             }
         }
+
 
 
 
