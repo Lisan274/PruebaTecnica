@@ -1,0 +1,231 @@
+﻿@model Prueba_Tecnica_CNBS.Models.Ddt
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Ddt</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtver)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtver)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Iddtext)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Iddtext)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Iext)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Iext)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddteta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddteta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dddtoficia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Dddtoficia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dddtrectifa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Dddtrectifa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtcirvis)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtcirvis)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Qddttaxchg)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Qddttaxchg)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ista)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ista)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtbur)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtbur)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtburdst)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtburdst)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtdep)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtdep)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtentrep)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtentrep)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtage)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtage)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtagr)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtagr)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Lddtagr)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Lddtagr)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nddtimmioe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nddtimmioe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Lddtnomioe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Lddtnomioe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtpayori)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtpayori)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtpaidst)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtpaidst)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Lddtnomfod)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Lddtnomfod)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtincote)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtincote)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtdevfob)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtdevfob)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtdevfle)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtdevfle)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtdevass)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtdevass)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddttransp)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddttransp)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtmdetrn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtmdetrn)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtpaytrn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtpaytrn)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nddtart)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nddtart)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nddtdelai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nddtdelai)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dddtbae)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Dddtbae)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dddtsalida)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Dddtsalida)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dddtcancel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Dddtcancel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dddtechean)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Dddtechean)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cddtobs)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cddtobs)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Iddt" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

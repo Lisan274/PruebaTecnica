@@ -1,0 +1,197 @@
+﻿@model IEnumerable<Prueba_Tecnica_CNBS.Models.Art>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Carttyp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Codbenef)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cartetamrc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Iespnce)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cartdesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cartpayori)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cartpayacq)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cartpayprc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Iddtapu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nartapu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Qartbul)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Martunitar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cartuntdcl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Qartuntdcl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cartuntest)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Qartuntest)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Qartkgrbrt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Qartkgrnet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Martfob)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Martfobdol)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Martfle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Martass)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Martemma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Martfrai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Martajuinc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Martajuded)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Martbasimp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IddtNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Carttyp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Codbenef)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cartetamrc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Iespnce)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cartdesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cartpayori)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cartpayacq)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cartpayprc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Iddtapu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nartapu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qartbul)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Martunitar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cartuntdcl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qartuntdcl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cartuntest)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qartuntest)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qartkgrbrt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qartkgrnet)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Martfob)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Martfobdol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Martfle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Martass)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Martemma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Martfrai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Martajuinc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Martajuded)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Martbasimp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IddtNavigation.Iddt)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

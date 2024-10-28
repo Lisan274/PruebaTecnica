@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Prueba_Tecnica_CNBS.Models.Ddt>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Busqueda de Declaraciones</h1>
+
+<form asp-action="Index" method="get">
+    <div class="form-group">
+        <input type="text" name="searchString" class="form-control" placeholder="Buscar por Nddtimmioe" value="@ViewData["CurrentFilter"]" />
+        <button type="submit" class="btn btn-primary mt-2">Buscar</button>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th><h5>Id</h5></th>
+            <th><h5>Iddtext</h5></th>
+            <th><h5>Nddtimmioe</h5></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Iddt)</td>
+                <td>@Html.DisplayFor(modelItem => item.Iddtext)</td>
+                <td>@Html.DisplayFor(modelItem => item.Nddtimmioe)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Iddt">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Iddt">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Iddt">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

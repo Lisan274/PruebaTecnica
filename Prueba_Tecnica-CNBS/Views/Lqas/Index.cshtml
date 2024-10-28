@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Prueba_Tecnica_CNBS.Models.Lqa>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Clqatax)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Clqatyp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mlqabas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Qlqacoefic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mlqa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Art)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IliqNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clqatax)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clqatyp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mlqabas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qlqacoefic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mlqa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Art.Iddt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IliqNavigation.Iliq)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

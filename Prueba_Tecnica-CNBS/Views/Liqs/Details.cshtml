@@ -1,0 +1,54 @@
+﻿@model Prueba_Tecnica_CNBS.Models.Liq
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Liq</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cliqdop)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cliqdop)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cliqeta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cliqeta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Mliq)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Mliq)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Mliqgar)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Mliqgar)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dlippay)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Dlippay)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Clipnomope)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Clipnomope)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Iliq">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

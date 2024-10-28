@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Cargar Datos";
+}
+
+<h2>Cargar Datos de Declaraciones</h2>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<form asp-action="LoadData" method="post">
+    <div class="form-group">
+        <label for="fecha">Fecha:</label>
+        <select id="fecha" name="fecha" class="form-control" required>
+            <option value="2021-06-20">2021-06-20</option>
+            <option value="2021-06-21">2021-06-21</option>
+            <option value="2021-06-22">2021-06-22</option>
+            <option value="2021-06-23">2021-06-23</option>
+            <option value="2021-06-24">2021-06-24</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Cargar Datos</button>
+</form>

@@ -1,0 +1,43 @@
+﻿@model Prueba_Tecnica_CNBS.Models.Ddt
+
+<h2>Detalles de la Declaración</h2>
+
+<div>
+    <h4>Declaración</h4>
+    <dl class="row">
+        <dt class="col-sm-2">Iddtext</dt>
+        <dd class="col-sm-10">@Model.Iddtext</dd>
+
+        <dt class="col-sm-2">Nddtimmioe</dt>
+        <dd class="col-sm-10">@Model.Nddtimmioe</dd>
+
+        <!-- Otros campos relevantes de Ddt -->
+    </dl>
+</div>
+
+<h4>Artículos Asociados</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Iddt</th>
+            <th>Nart</th>
+            <th>Cartdesc</th>
+            <th>Cartuntdcl</th>
+            <th>Qartkgrbrt</th>
+            <th>Qartkgrnet</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var art in Model.Arts)
+        {
+            <tr>
+                <td>@art.Iddt</td>
+                <td>@art.Nart</td>
+                <td>@art.Cartdesc</td>
+                <td>@art.Cartuntdcl</td>
+                <td>@art.Qartkgrbrt</td>
+                <td>@art.Qartkgrnet</td>
+            </tr>
+        }
+    </tbody>
+</table>

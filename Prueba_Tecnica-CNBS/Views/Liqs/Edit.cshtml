@@ -1,0 +1,59 @@
+﻿@model Prueba_Tecnica_CNBS.Models.Liq
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Liq</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Iliq" />
+            <div class="form-group">
+                <label asp-for="Cliqdop" class="control-label"></label>
+                <input asp-for="Cliqdop" class="form-control" />
+                <span asp-validation-for="Cliqdop" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cliqeta" class="control-label"></label>
+                <input asp-for="Cliqeta" class="form-control" />
+                <span asp-validation-for="Cliqeta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mliq" class="control-label"></label>
+                <input asp-for="Mliq" class="form-control" />
+                <span asp-validation-for="Mliq" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mliqgar" class="control-label"></label>
+                <input asp-for="Mliqgar" class="form-control" />
+                <span asp-validation-for="Mliqgar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dlippay" class="control-label"></label>
+                <input asp-for="Dlippay" class="form-control" />
+                <span asp-validation-for="Dlippay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Clipnomope" class="control-label"></label>
+                <input asp-for="Clipnomope" class="form-control" />
+                <span asp-validation-for="Clipnomope" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
